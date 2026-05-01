@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1777640446 source:c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\src\logo.cpp
+	"logo.h"
+	"GL/glut.h"
+
+1777640468 c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\include\logo.h
+
