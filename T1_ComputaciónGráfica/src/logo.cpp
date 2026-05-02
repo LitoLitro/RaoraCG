@@ -3564,18 +3564,17 @@ glVertex2d(17.64, 1.37);
 glVertex2d(17.60, 1.20);
 glVertex2d(17.70, 1.32);
     glEnd();
-    //Primero gris
+
     float cx = 17.25f;
     float cy = 1.445f;
     float r  = 0.37f;
 
-    // Gris con alta transparencia
     glColor4f(0.5f, 0.5f, 0.5f, 0.15f);
 
     int segmentos = 100;
 
     glBegin(GL_TRIANGLE_FAN);
-        glVertex2f(cx, cy); // centro
+        glVertex2f(cx, cy);
 
         for (int i = 0; i <= segmentos; i++) {
             float ang = 2 * M_PI * i / segmentos;
@@ -3584,18 +3583,17 @@ glVertex2d(17.70, 1.32);
             glVertex2f(x, y);
         }
     glEnd();
-    //segundo celeste
+
     float cx2 = 17.19f;
     float cy2 = 1.825f;
     float r2  = 0.135f;
 
-    // Gris con alta transparencia
     glColor4f(0.611f, 0.929f, 0.992f, 0.9f);
 
     int segmentos1 = 100;
 
     glBegin(GL_TRIANGLE_FAN);
-        glVertex2f(cx2, cy2); // centro
+        glVertex2f(cx2, cy2);
 
         for (int i = 0; i <= segmentos1; i++) {
             float ang = 2 * M_PI * i / segmentos1;

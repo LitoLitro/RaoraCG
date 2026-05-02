@@ -6,32 +6,40 @@
 
 1777684706 c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\include\logo.h
 
-1777697187 source:c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\main.cpp
+1777754085 source:c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\main.cpp
 	<GL/glut.h>
 	<math.h>
 	"logo.h"
 	"fondo.h"
 	"esfera.h"
 	"chatt.h"
+	"fondo2.h"
 
 1777685192 c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\include\fondo.h
 
-1777689843 source:c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\src\esfera.cpp
+1777744180 source:c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\src\esfera.cpp
 	"esfera.h"
 	"GL/glut.h"
 	"math.h"
 
 1777685127 c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\include\esfera.h
 
-1777696490 source:c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\src\chatt.cpp
+1777730580 source:c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\src\chatt.cpp
 	"chatt.h"
 	"GL/glut.h"
 	"math.h"
 
 1777685127 c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\include\chatt.h
 
-1777685968 source:c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\src\fondo.cpp
+1777743931 source:c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\src\fondo.cpp
 	"fondo.h"
+	"GL/glut.h"
+	"math.h"
+
+1777743747 c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\include\fondo2.h
+
+1777750753 source:c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\src\fondo2.cpp
+	"fondo2.h"
 	"GL/glut.h"
 	"math.h"
 

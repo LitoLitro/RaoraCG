@@ -4,10 +4,14 @@
 #include "fondo.h"
 #include "esfera.h"
 #include "chatt.h"
+#include "fondo2.h"
+
 logo Logo;
 fondo Fondo;
 esfera Esfera;
 chatt Chatt;
+fondo2 Fondo2;
+
 void display() {
     glLoadIdentity();
     gluOrtho2D(0,20,0,20);
@@ -16,6 +20,7 @@ void display() {
     glEnable(GL_BLEND);
 
     Fondo.dibujar1();
+    Fondo2.dibujar5();
     Chatt.dibujar3();
     Esfera.dibujar2();
     Logo.dibujar();
@@ -25,7 +30,7 @@ void display() {
 int main (int argc, char **argv) {
 glutInit (&argc, argv);
 glutInitDisplayMode(GLUT_SINGLE);
-glutInitWindowSize(800,800);
+glutInitWindowSize(950,950);
 glutInitWindowPosition(0,0);
 glutCreateWindow("Tarea CG");
 glutDisplayFunc(display);

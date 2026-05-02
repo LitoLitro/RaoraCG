@@ -47,11 +47,13 @@
 		<Unit filename="include/chatt.h" />
 		<Unit filename="include/esfera.h" />
 		<Unit filename="include/fondo.h" />
+		<Unit filename="include/fondo2.h" />
 		<Unit filename="include/logo.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/chatt.cpp" />
 		<Unit filename="src/esfera.cpp" />
 		<Unit filename="src/fondo.cpp" />
+		<Unit filename="src/fondo2.cpp" />
 		<Unit filename="src/logo.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
