@@ -1,7 +1,37 @@
 # depslib dependency file v1.0
-1777640446 source:c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\src\logo.cpp
+1777684757 source:c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\src\logo.cpp
 	"logo.h"
 	"GL/glut.h"
+	"math.h"
 
-1777640468 c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\include\logo.h
+1777684706 c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\include\logo.h
+
+1777697187 source:c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\main.cpp
+	<GL/glut.h>
+	<math.h>
+	"logo.h"
+	"fondo.h"
+	"esfera.h"
+	"chatt.h"
+
+1777685192 c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\include\fondo.h
+
+1777689843 source:c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\src\esfera.cpp
+	"esfera.h"
+	"GL/glut.h"
+	"math.h"
+
+1777685127 c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\include\esfera.h
+
+1777696490 source:c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\src\chatt.cpp
+	"chatt.h"
+	"GL/glut.h"
+	"math.h"
+
+1777685127 c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\include\chatt.h
+
+1777685968 source:c:\users\lenovo\desktop\raoracg\t1_computacióngráfica\src\fondo.cpp
+	"fondo.h"
+	"GL/glut.h"
+	"math.h"
 

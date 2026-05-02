@@ -14,6 +14,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -24,6 +25,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -42,7 +44,15 @@
 			<Add library="gdi32" />
 			<Add directory="$(#freeglut.lib)" />
 		</Linker>
+		<Unit filename="include/chatt.h" />
+		<Unit filename="include/esfera.h" />
+		<Unit filename="include/fondo.h" />
+		<Unit filename="include/logo.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/chatt.cpp" />
+		<Unit filename="src/esfera.cpp" />
+		<Unit filename="src/fondo.cpp" />
+		<Unit filename="src/logo.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

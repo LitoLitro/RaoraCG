@@ -1,9 +1,13 @@
 #include <GL/glut.h>
 #include <math.h>
 #include "logo.h"
-
-
+#include "fondo.h"
+#include "esfera.h"
+#include "chatt.h"
 logo Logo;
+fondo Fondo;
+esfera Esfera;
+chatt Chatt;
 void display() {
     glLoadIdentity();
     gluOrtho2D(0,20,0,20);
@@ -11,6 +15,9 @@ void display() {
     glBlendFunc(GL_SRC_ALPHA,GL_ONE_MINUS_SRC_ALPHA);
     glEnable(GL_BLEND);
 
+    Fondo.dibujar1();
+    Chatt.dibujar3();
+    Esfera.dibujar2();
     Logo.dibujar();
     glFlush();
 }
